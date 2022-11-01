@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="#000000"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="231dp"
+            app:srcCompat="@drawable/ic_baseline_add_a_photo_24" />
+
+        <EditText
+            android:id="@+id/txtNombres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="NOMBRE"
+            android:inputType="textPersonName"
+            android:textColor="#FBFBFB"
+            android:textColorHint="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/txtDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:ems="10"
+            android:hint="DESCRIPCION"
+            android:inputType="textPersonName"
+            android:textColor="#EAEAEA"
+            android:textColorHint="#EAEAEA" />
+
+        <Button
+            android:id="@+id/btnTomarFoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#D32F2F"
+            android:text="TOMAR FOTO" />
+
+        <Button
+            android:id="@+id/btnSQL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#D32F2F"
+            android:text="A SQLITE" />
+
+        <Button
+            android:id="@+id/btnVerLista"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#D32F2F"
+            android:text="VER LISTA" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
