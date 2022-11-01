@@ -3,4 +3,5 @@
     <string name="atras">ATRAS</string>
     <string name="nombre">NOMBRE</string>
     <string name="descripcion">DESCRIPCION</string>
+    <string name="nombrel">name</string>
 </resources>

@@ -81,7 +81,7 @@ public class MainActivityLista extends AppCompatActivity {
     private void fillList() {
         argDatos = new ArrayList<String>();
         for(int i = 0; i<listaDatos.size(); i ++) {
-            argDatos.add(listaDatos.get(i).getId()  + " | - | " + listaDatos.get(i).getNombre() + " | - | "+ listaDatos.get(i).getDescripcion());
+            argDatos.add(listaDatos.get(i).getId()  + "  |  " + listaDatos.get(i).getNombre() + "  |  "+ listaDatos.get(i).getDescripcion());
         }
     }
 

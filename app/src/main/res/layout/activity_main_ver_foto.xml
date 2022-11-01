@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#252525"
     tools:context=".MainActivityVerFoto">
 
     <LinearLayout
@@ -29,7 +30,9 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="@string/nombre"
-            android:inputType="textPersonName" />
+            android:inputType="textPersonName"
+            android:textColor="#F6F6F6"
+            android:textColorHint="#EDEDED" />
 
         <EditText
             android:id="@+id/txtDescripcion"
@@ -37,6 +40,7 @@
             android:layout_height="94dp"
             android:ems="10"
             android:hint="@string/descripcion"
-            android:inputType="textPersonName" />
+            android:inputType="textPersonName"
+            android:textColorHint="#FDFDFD" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
